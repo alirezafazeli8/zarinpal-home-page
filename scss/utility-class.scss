@@ -1,0 +1,86 @@
+@import "./variable.scss";
+
+
+// cards main cases
+.card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card-main-case > div{
+        width: 70rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin-top: 5rem;
+        img {
+            width: 35rem;
+            padding: 2rem;
+        }
+        h3 {
+            color: gray;
+        }
+        h1 {
+            color: #303030;
+            padding: 1rem 0;
+        }
+        p {
+            color: #5C5D5D;
+            font-size: 1.2rem;
+            line-height: 3rem;
+        }
+    }
+}
+
+.end-card-case {
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+    padding: 1rem;
+    padding-top: 4rem;
+    .gold-end-card {
+        background-color: #FFE21B;
+        padding: 0.4rem 0.7rem;
+        border-radius: 0.5rem;
+    }
+
+    .case-more {
+        display: flex;
+        flex-direction: row-reverse;
+        color: $soft_blue;
+        padding: 0.5rem;
+        a {
+            color: $soft_blue;
+        }
+
+        i {
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.gold-end-card {
+    a {
+        background-color: #FFE21B;
+        padding: 0.4rem 0.7rem;
+        border-radius: 0.5rem;
+    }
+}
+
+.about-property > div {
+    h2 {
+        padding: 2rem 0;
+    }
+    p {
+        line-height: 2rem;
+    }
+    img {
+        width: 3.5rem;
+    }
+}
+
+// color blue 
+.color-soft-blue {
+    color: $soft_blue;
+}

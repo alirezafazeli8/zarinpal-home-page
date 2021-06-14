@@ -1,0 +1,233 @@
+@import "./setting.scss";
+@import "./utility-class.scss";
+@import "./variable.scss";
+
+// header & navbar 
+nav {
+    display: flex;
+    justify-content: center;
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        padding: 2rem ;
+        background-color: white;
+        opacity: 0.8;
+        width: 100%;
+        ul {
+            display: flex;
+            li {
+                
+                padding-left: 1.5rem;
+            }
+            li:last-child {
+                padding-left: 0;
+            }
+        }
+        
+        .my-zarinpal {
+            display: flex;
+            h3 {
+                padding-right: 4rem;
+                font-size:  0.9rem;
+                a {
+                    color: $soft_blue;
+                }
+            }
+        }
+    }
+}
+
+
+// login register case
+#login-register {
+    display: flex;
+    justify-content: center;
+    .login-register-case {
+        width: 70rem;
+        background-color: $soft_blue_2;
+        background-image: url("https://www.zarinpal.com/assets/images/wave.svg?4a663924967723420f5c4cb59d15959e");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6rem 5rem 1rem;
+        border-radius: 1.5rem;
+        margin-top: 10rem;
+        #login-text {
+            font-size: 1.3rem;
+            color: white;
+            line-height: 3em;
+            p {
+                line-height: 2em;
+
+            }
+            img {
+                width: 35rem;
+            }
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
+// case card style
+.end-login-case {
+    display: flex;
+    justify-content: space-between;
+    width: 9rem;
+    #register-button {
+        a {
+            font-size: 1.2rem;
+            background-color: yellow;
+            border-radius: 0.5rem;
+            padding: 0.2rem 0.7rem;
+        }
+    }
+
+
+    #login-button {            
+        a {
+            font-size: 1.2rem;
+            background-color: #435A8A;
+            border-radius: 0.5rem;
+            padding: 0.2rem 0.7rem;
+            color: white;
+        }
+    }
+}
+
+#payment-portal {
+    .end-card-case {
+        width: 21rem;
+    }
+}
+
+// zarinpal property
+.zarinpal_property {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    .zarinpal_property_in {
+        display: flex;
+        flex-direction: row;
+        width: 70rem;
+    }
+    .about-property {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .about-property > div {
+        padding: 0.5rem 2rem;
+    }
+}
+
+
+#first-about {
+    h1 {
+        padding-bottom: 2rem;
+    }
+    p {
+        line-height: 2rem;
+    }
+}
+
+// footer
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+    // zarinpal gift
+    .zarinpal_gift {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70rem;
+        padding: 2rem 5rem;
+        border: 1px gray solid;
+        border-radius: 1rem;
+        line-height: 3rem;
+        h3 {
+            color: gray;
+        }
+    }
+
+    // zarinpal support
+    .zarinpal_support {
+        display: flex;
+        justify-content: space-between;
+        width: 70rem;
+        padding: 3rem;
+        margin-top: 2rem;
+    }
+
+    #support-button {
+        display: flex;
+        flex-direction: row-reverse;
+        i {
+            padding: 1rem;
+        }
+    }
+
+    // zarinpal footer link
+    .zarinpal-footer-link {
+        margin-top: 2rem;
+        display: flex;
+        :first-child {
+            ul {
+                padding: 0 0;
+            }
+        }
+        ul {
+            padding: 0 2.5rem;
+            color: #303030;
+            font-family: "yekan-balkh-bold";
+            li {
+                padding: 0.5rem 0;
+                line-height: 2rem;
+                color: #0D0D0D;
+            }
+        }
+    }
+
+    .footer_link_social_link {
+        width: 70rem;
+    }
+}
+
+
+// zarinpal social
+
+.social {
+    color: #303030;
+    ul {
+        display: flex;
+        li {
+            font-size: 1.5rem;
+            i {
+                color: $soft_blue;
+                padding: 1rem 1rem;
+            }
+        }
+    }
+    .electronic-social {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+    }
+}
+
+
+// copyright
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}

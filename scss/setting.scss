@@ -1,0 +1,27 @@
+// font family
+@font-face {
+    font-family: 'yekan-balkh-bold';
+    src: url("../font/BYekan+\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'yekan-balkh';
+    src: url("../font/BYekan+.ttf") format("truetype");
+}
+
+// setting
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: "yekan-balkh";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
